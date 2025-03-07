@@ -1,0 +1,60 @@
+.hidden {
+	display: none;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+th,
+td {
+	border: 1px solid #666;
+	padding: 5px;
+}
+
+/* th单元格 */
+.slash-wrap {
+	position: relative;
+	box-sizing: border-box;
+	width: 60px;
+	height: 45px;
+}
+
+/* 斜线 */
+.slash {
+	position: absolute;
+	display: block;
+	top: 0;
+	left: 0;
+	/* Math.sqrt(Math.pow(width, 2) + Math.pow(height, 2)) */
+	width: 75px;
+	height: 1px;
+	background-color: #000;
+	/*  Math.atan(height / width) * 180 / Math.PI  */
+	transform: rotate(36.86989764584402deg);
+	transform-origin: top left;
+}
+
+/* 左下角文字 */
+.left {
+	position: absolute;
+	left: 0px;
+	bottom: 0px;
+}
+
+/* 右上角文字 */
+.right {
+	position: absolute;
+	right: 0px;
+	top: 0px;
+}
+
+.item {
+	text-align: center;
+	cursor: pointer;
+	background-color: #e5f2f2;
+}
+
+.item:hover {
+	background-color: #cff2f2;
+}
