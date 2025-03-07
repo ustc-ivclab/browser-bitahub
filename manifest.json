@@ -1,13 +1,21 @@
 {
-	"manifest_version": 2,
+	"manifest_version": 3,
 	"name": "bitahub",
 	"version": "1.0",
 	"description": "Display GPU information of bitahub",
+	"host_permissions": [
+		"https://bitahub.ustc.edu.cn/resources"
+	],
 	"icons": {
 		"48": "assets/icons/48.png"
 	},
-	"browser_action": {
+	"action": {
 		"default_title": "bitahub",
 		"default_popup": "index.html"
-	}
+	},
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "bitahub@ustc.edu"
+    }
+  }
 }

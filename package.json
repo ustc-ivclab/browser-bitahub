@@ -1,8 +1,11 @@
 {
 	"devDependencies": {
+		"@biomejs/biome": "*",
 		"web-ext": "*"
 	},
 	"scripts": {
-		"run": "web-ext run"
+		"build": "web-ext build --overwrite-dest",
+		"run": "web-ext run",
+		"check": "web-ext lint && biome check"
 	}
 }
