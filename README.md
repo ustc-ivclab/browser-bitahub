@@ -30,14 +30,14 @@ Display [bitahub](https://bitahub.ustc.edu.cn/resources) GPU status in browser.
 
 ![screenshot](https://github.com/user-attachments/assets/ca8c33ab-f6f0-4fff-99e4-8d0fe8812bd2)
 
-Also support firefox on Android.
+Also support firefox for Android.
 
 ![android](https://github.com/user-attachments/assets/497ce79f-539a-4f6e-a1cb-7f6e792a34b0)
 
 ## Install
 
 - [firefox](https://addons.mozilla.org/en-US/firefox/addon/bitahub/)
-- [firefox on Android](https://addons.mozilla.org/en-US/android/addon/bitahub/)
+- [firefox for Android](https://addons.mozilla.org/en-US/android/addon/bitahub/)
 
 ## Related Projects
 

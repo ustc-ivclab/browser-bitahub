@@ -1,21 +1,28 @@
 {
 	"manifest_version": 3,
 	"name": "bitahub",
-	"version": "1.0",
+	"version": "0.1",
+	"author": "Wu, Zhenyu",
+	"homepage_url": "https://github.com/ustc-ivclab/browser-bitahub",
 	"description": "Display GPU information of bitahub",
-	"host_permissions": [
-		"https://bitahub.ustc.edu.cn/resources"
-	],
+	"host_permissions": ["https://bitahub.ustc.edu.cn/resources"],
 	"icons": {
-		"48": "assets/icons/48.png"
+		"48": "assets/images/48.png"
 	},
 	"action": {
 		"default_title": "bitahub",
 		"default_popup": "index.html"
 	},
-  "browser_specific_settings": {
-    "gecko": {
-      "id": "bitahub@ustc.edu"
-    }
-  }
+	"browser_specific_settings": {
+		"gecko": {
+			"id": "bitahub@ustc.edu"
+		}
+	},
+	"commands": {
+		"_execute_action": {
+			"suggested_key": {
+				"default": "Ctrl+Alt+B"
+			}
+		}
+	}
 }
